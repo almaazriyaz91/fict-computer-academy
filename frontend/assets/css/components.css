@@ -451,3 +451,130 @@
     background: var(--dark-black);
     transform: translateY(-3px);
 }
+
+/* =====================================
+   WHY CHOOSE FICT SECTION
+===================================== */
+.why-choose-section {
+    padding: 100px 0;
+    background: var(--pure-white);
+}
+
+/* SECTION HEADER */
+.why-section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 55px;
+}
+
+.why-section-header .section-label {
+    justify-content: center;
+}
+
+.why-section-header h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(30px, 4vw, 43px);
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+}
+
+.why-section-header h2 span {
+    color: var(--primary-red);
+    display: block;
+}
+
+.why-section-header > p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    max-width: 550px;
+    margin: auto;
+}
+
+/* FEATURE GRID */
+.why-choose-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+/* FEATURE CARD */
+.why-card {
+    position: relative;
+    padding: 30px 24px;
+    background: var(--pure-white);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.why-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--primary-red);
+    box-shadow: var(--shadow-md);
+}
+
+/* CARD TOP */
+.why-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.why-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF1F2;
+    color: var(--primary-red);
+    border-radius: 13px;
+    font-size: 23px;
+    transition: 0.3s ease;
+}
+
+.why-card:hover .why-icon {
+    background: var(--primary-red);
+    color: var(--pure-white);
+}
+
+.why-number {
+    font-family: var(--font-heading);
+    font-size: 30px;
+    font-weight: 800;
+    color: #EEEEEE;
+}
+
+/* CARD CONTENT */
+.why-card h3 {
+    font-family: var(--font-heading);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.why-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* CARD BOTTOM LINE */
+.why-card-line {
+    width: 35px;
+    height: 3px;
+    background: var(--primary-red);
+    border-radius: 5px;
+    margin-top: 25px;
+    transition: 0.3s ease;
+}
+
+.why-card:hover .why-card-line {
+    width: 65px;
+}
