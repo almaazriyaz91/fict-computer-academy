@@ -1,0 +1,78 @@
+/* =================================
+   FICT COMPUTER ACADEMY
+   GLOBAL DESIGN SYSTEM
+================================= */
+:root {
+    /* Primary Colors */
+    --primary-red: #D92332;
+    --dark-black: #151515;
+    --pure-white: #FFFFFF;
+
+    /* Background Colors */
+    --bg-light: #F8F8F8;
+    --bg-white: #FFFFFF;
+
+    /* Text Colors */
+    --text-primary: #171717;
+    --text-secondary: #666666;
+    --text-light: #999999;
+
+    /* Border */
+    --border-color: #EAEAEA;
+
+    /* Typography */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Layout */
+    --container-width: 1200px;
+
+    /* Border Radius */
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    /* Shadows */
+    --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg-white);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: var(--container-width);
+    margin: auto;
+}
