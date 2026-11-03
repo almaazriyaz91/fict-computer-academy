@@ -625,6 +625,208 @@
             </div>
         </section>
 
+        <!-- =====================================
+            GALLERY PREVIEW SECTION
+        ===================================== -->
+        <section class="gallery-section">
+            <div class="container">
+
+                <!-- SECTION HEADER -->
+                <div class="gallery-header">
+                    <div class="section-label">
+                        <span></span>
+                        OUR GALLERY
+                    </div>
+
+                    <h2>
+                        Moments That
+                        <span>Make Us Proud</span>
+                    </h2>
+
+                    <p>
+                        Explore memorable moments, student achievements
+                        and activities at FICT Computer Academy.
+                    </p>
+                </div>
+
+                <!-- GALLERY GRID -->
+                <div class="gallery-grid">
+
+                    <!-- IMAGE 01 -->
+                    <div class="gallery-item gallery-large">
+                        <img
+                            src="./assets/images/gallery-event-01.jpg"
+                            alt="FICT Computer Academy institute event"
+                            loading="lazy"
+                            data-gallery
+                        >
+
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>Institute Events</span>
+                                <h3>Memorable Moments</h3>
+                            </div>
+
+                            <div class="gallery-zoom">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 02 -->
+                    <div class="gallery-item">
+                        <img
+                            src="./assets/images/gallery-event-02.jpg"
+                            alt="Certificate distribution ceremony"
+                            loading="lazy"
+                            data-gallery
+                        >
+
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>Student Achievements</span>
+                                <h3>Celebrating Success</h3>
+                            </div>
+
+                            <div class="gallery-zoom">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 03 -->
+                    <div class="gallery-item">
+                        <img
+                            src="./assets/images/gallery-achievement-01.jpg"
+                            alt="Students receiving certificates"
+                            loading="lazy"
+                            data-gallery
+                        >
+
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>Achievements</span>
+                                <h3>Learning Milestones</h3>
+                            </div>
+
+                            <div class="gallery-zoom">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 04 -->
+                    <div class="gallery-item">
+                        <img
+                            src="./assets/images/gallery-students-01.jpg"
+                            alt="FICT Computer Academy students"
+                            loading="lazy"
+                            data-gallery
+                        >
+
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>Student Activities</span>
+                                <h3>Growing Together</h3>
+                            </div>
+
+                            <div class="gallery-zoom">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 05 -->
+                    <div class="gallery-item">
+                        <img
+                            src="./assets/images/gallery-certificate-01.jpg"
+                            alt="Student certificate presentation"
+                            loading="lazy"
+                            data-gallery
+                        >
+
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>Certificate Distribution</span>
+                                <h3>Recognizing Efforts</h3>
+                            </div>
+
+                            <div class="gallery-zoom">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IMAGE 06 -->
+                    <div class="gallery-item gallery-large">
+                        <img
+                            src="./assets/images/gallery-group-01.jpg"
+                            alt="FICT Computer Academy students group photograph"
+                            loading="lazy"
+                            data-gallery
+                        >
+
+                        <div class="gallery-overlay">
+                            <div>
+                                <span>Our Community</span>
+                                <h3>Learning Together</h3>
+                            </div>
+
+                            <div class="gallery-zoom">
+                                <i class="fa-solid fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW GALLERY BUTTON -->
+                <div class="gallery-footer">
+                    <a href="gallery.html" class="gallery-btn">
+                        Explore Full Gallery
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================
+            GALLERY LIGHTBOX
+        ===================================== -->
+        <div class="gallery-lightbox" id="galleryLightbox">
+            <button
+                class="lightbox-close"
+                id="lightboxClose"
+                aria-label="Close image preview"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <button
+                class="lightbox-nav lightbox-prev"
+                id="lightboxPrev"
+                aria-label="Previous image"
+            >
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="lightbox-content">
+                <img
+                    src=""
+                    alt="Gallery image preview"
+                    id="lightboxImage"
+                >
+                <p id="lightboxCaption"></p>
+            </div>
+
+            <button
+                class="lightbox-nav lightbox-next"
+                id="lightboxNext"
+                aria-label="Next image"
+            >
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
         <!-- JavaScript -->
         <script src="./assets/js/main.js"></script>
     </body>
