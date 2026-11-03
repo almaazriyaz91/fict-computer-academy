@@ -86,7 +86,12 @@ function showPreviousImage() {
 
 // Open selected image
 galleryArray.forEach((image, index) => {
-    image.addEventListener("click", () => {
+    
+    // Get the parent gallery item
+    const galleryItem = image.closest(".gallery-item");
+
+    // Attach click event to the complete gallery card
+    galleryItem.addEventListener("click", () => {
         openLightbox(index);
     });
 });
