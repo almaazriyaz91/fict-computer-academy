@@ -643,3 +643,97 @@
         font-size: 18px;
     }
 }
+
+/* =====================================
+   ADMISSION CTA RESPONSIVENESS
+===================================== */
+
+/* TABLET */
+@media (max-width: 900px) {
+    .admission-cta-section {
+        padding: 75px 0;
+    }
+
+    .admission-cta-content {
+        gap: 25px;
+    }
+
+    .admission-cta-text h2 {
+        font-size: 34px;
+    }
+
+    .admission-cta-decoration {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cta-decoration-circle {
+        width: 150px;
+        height: 150px;
+        font-size: 65px;
+    }
+
+    .cta-decoration-small {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .admission-cta-section {
+        padding: 65px 0;
+    }
+
+    .admission-cta-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .admission-cta-text {
+        width: 100%;
+    }
+
+    .cta-label {
+        justify-content: center;
+    }
+
+    .admission-cta-text h2 {
+        font-size: 30px;
+    }
+
+    .admission-cta-text p {
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .admission-cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-primary-btn,
+    .cta-secondary-btn {
+        width: 100%;
+    }
+
+    .admission-cta-decoration {
+        width: 170px;
+        height: 170px;
+    }
+
+    .cta-decoration-circle {
+        width: 130px;
+        height: 130px;
+        font-size: 55px;
+    }
+
+    .cta-decoration-small {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
