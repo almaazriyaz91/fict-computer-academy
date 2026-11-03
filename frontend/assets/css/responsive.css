@@ -217,3 +217,104 @@
         font-size: 9px;
     }
 }
+
+/* =====================================
+   ABOUT SECTION RESPONSIVENESS
+===================================== */
+
+/* TABLET */
+@media (max-width: 1000px) {
+    .about-content {
+        gap: 45px;
+    }
+
+    .about-image-wrapper {
+        height: 400px;
+    }
+
+    .established-card {
+        right: -10px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+    .about-section {
+        padding: 75px 0;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .about-image {
+        max-width: 650px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .section-label {
+        justify-content: center;
+    }
+
+    .about-features {
+        text-align: left;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+    .about-section {
+        padding: 60px 0;
+    }
+
+    .about-image-wrapper {
+        height: 290px;
+        border-radius: 14px;
+    }
+
+    .established-card {
+        right: 8px;
+        bottom: 12px;
+        padding: 12px 14px;
+        gap: 10px;
+    }
+
+    .established-icon {
+        width: 37px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+    .established-card h3 {
+        font-size: 12px;
+    }
+
+    .established-card span {
+        font-size: 9px;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    .about-description {
+        font-size: 13px;
+    }
+
+    .about-feature h4 {
+        font-size: 13px;
+    }
+
+    .about-feature p {
+        font-size: 11px;
+    }
+}
