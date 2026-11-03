@@ -376,3 +376,66 @@
         font-size: 12px;
     }
 }
+
+/* =====================================
+   POPULAR COURSES RESPONSIVENESS
+===================================== */
+
+/* TABLET */
+@media (max-width: 1000px) {
+    .courses-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .courses-section {
+        padding: 70px 0;
+    }
+
+    .courses-header {
+        margin-bottom: 35px;
+    }
+
+    .courses-header h2 {
+        font-size: 30px;
+    }
+
+    .courses-header > p {
+        font-size: 13px;
+    }
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .course-card {
+        padding: 25px 22px;
+    }
+
+    .course-icon {
+        width: 52px;
+        height: 52px;
+        font-size: 21px;
+    }
+
+    .course-card h3 {
+        font-size: 17px;
+    }
+
+    .course-card p {
+        font-size: 12px;
+        min-height: auto;
+    }
+
+    .courses-footer {
+        margin-top: 35px;
+    }
+
+    .view-courses-btn {
+        width: 100%;
+    }
+}
