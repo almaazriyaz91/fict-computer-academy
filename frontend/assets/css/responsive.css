@@ -439,3 +439,119 @@
         width: 100%;
     }
 }
+
+/* =====================================
+   ACHIEVEMENTS RESPONSIVENESS
+===================================== */
+
+/* TABLET */
+@media (max-width: 1000px) {
+    .achievements-content {
+        gap: 45px;
+    }
+
+    .achievement-image-wrapper {
+        height: 380px;
+    }
+
+    .achievement-floating-badge {
+        left: -12px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+    .achievements-section {
+        padding: 75px 0;
+    }
+
+    .achievements-content {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .achievements-text {
+        text-align: center;
+    }
+
+    .achievement-label {
+        justify-content: center;
+    }
+
+    .achievement-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .achievement-highlight {
+        justify-content: center;
+    }
+
+    .achievements-image {
+        width: 100%;
+        max-width: 650px;
+        margin: auto;
+    }
+
+    .achievement-floating-badge {
+        left: 15px;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+    .achievements-section {
+        padding: 60px 0;
+    }
+
+    .achievements-text h2 {
+        font-size: 31px;
+    }
+
+    .achievement-description {
+        font-size: 13px;
+    }
+
+    .years-number {
+        font-size: 55px;
+    }
+
+    .achievement-years-text h3 {
+        font-size: 14px;
+    }
+
+    .achievement-years-text p {
+        font-size: 10px;
+    }
+
+    .achievement-image-wrapper {
+        height: 290px;
+        border-radius: 14px;
+    }
+
+    .achievement-floating-badge {
+        bottom: 12px;
+        left: 10px;
+        padding: 12px 14px;
+        gap: 10px;
+    }
+
+    .achievement-badge-icon {
+        width: 37px;
+        height: 37px;
+        font-size: 17px;
+    }
+
+    .achievement-floating-badge h3 {
+        font-size: 14px;
+    }
+
+    .achievement-floating-badge span {
+        font-size: 9px;
+    }
+
+    .achievement-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
